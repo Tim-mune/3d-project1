@@ -1,0 +1,23 @@
+#root {
+  width: 100vw;
+  height: 100vh;
+  margin: 0 auto;
+  /* padding: 2rem; */
+  position: fixed;
+  overflow: hidden;
+  text-align: center;
+}
+
+canvas {
+  width: 100vw;
+  height: 100vh;
+  touch-action: none;
+}
+
+.myIframe iframe {
+  width: 1024px;
+  height: 670px;
+  border: none;
+  border-radius: 20px;
+  background-color: black;
+}
